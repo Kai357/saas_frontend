@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Name | SaaS Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./library/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body class="wrapper">
+    <!-- Header Start -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <i class="fa-solid fa-cubes-stacked navbar-brand-icon"></i> Name</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            id="navbarNavBtn"
+            data-bs-toggle="collapse"
+            data-bs-target="navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-line"></span>
+            <span class="navbar-toggler-line"></span>
+            <span class="navbar-toggler-line"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#features">features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#download">download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#pricing">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="dropdown-item">
+                    <a href="blog-article.html">Article</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="blog-home.html">Blog Feed</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <a class="btn nav-btn signup-btn" href="signup.html">Signup</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Start -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="hero-text col-lg-6 pb-6">
+            <h1 class="hero-title">
+              Empower your brand's success with our full-service digital
+              marketing solutions
+            </h1>
+            <p class="hero-description">
+              Let us help take your business to the next level by elevating your
+              online presence, increasing engagement with your target audience,
+              and generating leads and conversions. Our expertise in all things
+              social media and digital marketing will help you stay ahead of the
+              competition and achieve your business goals effectively and
+              efficiently.
+            </p>
+
+            <a class="btn hero-btn" href="#pricing">Get Started</a>
+            <a class="btn hero-btn btn-primary" href="#services">Learn More</a>
+          </div>
+          <div class="hero-img col-lg-6">
+            <img src="./images/hero-img.png" alt="appliction preview" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!--Brands Start-->
+    <div class="brands">
+      <div class="container text-center">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 col-lg-2 pb-5">
+            <img
+              class="img-fluid"
+              src="./images/amazon.svg"
+              alt="amazon logo"
+            />
+          </div>
+          <div class="col-md-4 col-lg-2 pb-5">
+            <img
+              class="img-fluid"
+              src="./images/google.svg"
+              alt="google logo"
+            />
+          </div>
+          <div class="col-md-4 col-lg-2 pb-5">
+            <img class="img-fluid" src="./images/intel.svg" alt="intel logo" />
+          </div>
+          <div class="col-md-4 col-lg-2 pb-5">
+            <img
+              class="img-fluid"
+              src="./images/microsoft.svg"
+              alt="microsoft logo"
+            />
+          </div>
+          <div class="col-md-4 col-lg-2 pb-5">
+            <img
+              class="img-fluid"
+              src="./images/amazon.svg"
+              alt="amazon logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Brands End-->
+
+    <!--Features Start-->
+    <section class="features py-5" id="features">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="section-top features-top py-5 col-md-7">
+            <p class="section-subtitle">features</p>
+            <h2 class="section-title">Killer features</h2>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4">
+            <img src="./images/card-img.png" alt="" />
+          </div>
+          <div class="col-lg-8 row">
+            <div class="features-item col-md-6">
+              <h3>Auto_Content</h3>
+              <p>
+                Introducing the AI Content Creator for Digitall. This feature
+                helps generate fresh, high-quality content for your social media
+                pages, saving you time and effort. The AI understands your
+                brand's tone and style, creating posts that align with your
+                brand identity. Simply choose the type of content you want and
+                let the AI do the work for you. The AI Content Creator is always
+                learning and improving, generating up-to-date content that will
+                keep your social media pages engaging. Say goodbye to the hassle
+                of content creation and focus on growing your business and
+                connecting with your audience. Try the AI Content Creator today!
+              </p>
+            </div>
+            <div class="features-item col-md-6">
+              <h3>User engagement</h3>
+              <p>
+                Introducing Automatic User Engagement on Digitall. Connect with
+                your audience effortlessly and grow your online presence with
+                our AI algorithms. Our AI analyzes your audience's behavior to
+                identify opportunities for engagement, like responding to
+                comments, liking posts, or following users. Say goodbye to
+                manual engagement and enjoy consistent, tailored interactions
+                that build stronger relationships and increase brand loyalty.
+                Try Automatic User Engagement today and take your online
+                presence to the next level!
+              </p>
+            </div>
+            <div class="features-item col-md-6">
+              <h3>Long form 2 short form</h3>
+              <p>
+                Introducing Automatic Long Form to Short Form Video Editing on
+                Digitall. Create engaging, bite-sized videos from longer content
+                with our AI algorithms. Our AI edits your videos into shareable
+                clips, highlighting the most impactful moments. Say goodbye to
+                manual editing and enjoy high-quality, shareable content with
+                just a few clicks. Try it today!
+              </p>
+            </div>
+            <div class="features-item col-md-6">
+              <h3>Stat reports</h3>
+              <p>
+                Digitall provides comprehensive stat reports on social media
+                campaign performance. These reports offer detailed data and
+                insights on audience engagement, reach, and demographics,
+                enabling clients to track the success of their campaigns and
+                optimize their strategies. The reports are customizable, easy to
+                read, and can be scheduled for regular automated updates. Stat
+                reports are a valuable tool for SMMA professionals to make
+                informed decisions and achieve better results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Features End-->
+
+    <!--Options Items Start-->
+    <section class="options">
+      <div class="container">
+        <div class="row justify-content-between align-items-center mb-2">
+          <div class="options-info col-md-5 order-2 order-md-1">
+            <p class="section-subtitle">Auto_Content</p>
+            <h3>Never create content again</h3>
+            <p>
+              Looking for high-quality, engaging content that will help your
+              brand stand out online? Turn to Digitall, the premier content
+              creation agency. Our expert team of writers, editors, and
+              strategists can help you create compelling content that speaks
+              directly to your target audience. From blog posts to social media
+              content, we've got you covered. Contact us today to learn more
+              about our services and take your content to the next level!
+            </p>
+
+            <a class="btn" href="#pricing">Get Started</a>
+          </div>
+          <div class="options-img col-md-5 order-1 order-md-2">
+            <img src="./images/features-2.png" alt="statistic" />
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center mb-2">
+          <div class="options-img col-md-5 order-2 order-md-1">
+            <img src="./images/features-3.png" alt="statistic" />
+          </div>
+          <div class="options-info col-md-5 order-2 order-md-1">
+            <p class="section-subtitle">user behavior</p>
+            <h3>See how your users behaves</h3>
+            <p>
+              Autem neque velit doloribus. Id voluptas inventore quo quos
+              repellendus et et enim. Nihil cupiditate debitis aut dolorem
+              temporibus.
+            </p>
+
+            <a class="btn" href="#pricing">Get Started</a>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center mb-2">
+          <div class="options-info col-md-5 order-2 order-md-1">
+            <p class="section-subtitle">ducimus</p>
+            <h3>Voluptate delectus aliquam.</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled.
+            </p>
+
+            <a class="btn" href="#pricing">Get Started</a>
+          </div>
+          <div class="options-img col-md-5 order-1 order-md-2">
+            <img src="./images/features-4.png" alt="statistic" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Options Items End-->
+
+    <!-- Price Start -->
+    <section class="price section py-5" id="pricing">
+      <div class="section-top price-top py-5">
+        <p class="section-subtitle">Pricing</p>
+        <h2 class="section-title">Simple & Transparent Pricing</h2>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center pb-5">
+          <div class="price-item col-md-4 mb-4">
+            <p class="section-subtitle">free</p>
+            <h3 class="price-type">basic</h3>
+            <ul class="available-services">
+              <li>Quidem enim accusamus.</li>
+              <li>Dolores minima saepe.</li>
+              <li>praesentium deleniti qui.</li>
+            </ul>
+            <p class="price-amount-cont">
+              <span class="price-amount"> $0</span>/month
+            </p>
+            <button class="btn price-btn">download Now</button>
+          </div>
+          <div class="price-item col-md-4 mb-4">
+            <p class="section-subtitle">team</p>
+            <h3 class="price-type">Advance</h3>
+            <ul class="available-services">
+              <li>Est consequatur aut</li>
+              <li>eum et aliquam persp</li>
+              <li>Excepturi quam odio</li>
+            </ul>
+            <p class="price-amount-cont">
+              <span class="price-amount"> $10</span>/month
+            </p>
+            <button class="btn price-btn">download Now</button>
+          </div>
+          <div class="price-item col-md-4 mb-4">
+            <p class="section-subtitle">advance</p>
+            <h3 class="price-type">Enterprise</h3>
+            <ul class="available-services">
+              <li>necessitatibus ut.</li>
+              <li>sit amet consectetur</li>
+              <li>Sint dignissimos neque</li>
+            </ul>
+            <p class="price-amount-cont">
+              <span class="price-amount"> $20</span>/month
+            </p>
+            <button class="btn price-btn">download Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Price End -->
+
+    <!--Blog Start-->
+    <section class="blog" id="blog">
+      <div class="section-top blog-top pb-5">
+        <p class="section-subtitle">blog</p>
+        <h2 class="section-title">Check our latest news & articles</h2>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="blog-item">
+              <img src="./images/blog-1.png" alt="blog thumbnail" />
+              <div class="blog-item-info">
+                <p class="blog-item-publish-info">
+                  oct 20, 2022 by<a href="#" class="highlighted-text"
+                    >Charlene White
+                  </a>
+                </p>
+                <a class="blog-item-title" href="/blog-article.html">
+                  Eius enim aut aperiam quia veniam eos rerum atque.
+                </a>
+                <a href="blog-article.html" class="blog-item-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="blog-item">
+              <img src="./images/blog-2.png" alt="blog thumbnail" />
+              <div class="blog-item-info">
+                <p class="blog-item-publish-info">
+                  oct 24, 2022 by
+                  <a href="#" class="highlighted-text"> Jaime Brown </a>
+                </p>
+                <a class="blog-item-title" href="/blog-article.html">
+                  Quia et provident sapiente et velit ex ea.
+                </a>
+                <a href="blog-article.html" class="blog-item-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="blog-item">
+              <img src="./images/blog-3.png" alt="blog thumbnail" />
+              <div class="blog-item-info">
+                <p class="blog-item-publish-info">
+                  oct 30, 2022 by
+                  <a href="#" class="highlighted-text"> Jhon Doe </a>
+                </p>
+                <a class="blog-item-title" href="/blog-article.html">
+                  Est delectus similique dolor necessitatibus ut.
+                </a>
+                <a href="blog-article.html" class="blog-item-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Blog End-->
+
+    <!--Download Start-->
+    <section class="download" id="download">
+      <div class="container">
+        <div class="section-top download-top py-5">
+          <p class="section-subtitle">download</p>
+          <h2 class="section-title download-title px-5">
+            consectetur Ipsum passage and going through the cites
+          </h2>
+
+          <div class="download-buttons">
+            <a class="btn" href="#downloadlink">Download Now!</a>
+            <a class="btn btn-primary" href="#pricing">Our Pricing</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Download End-->
+
+    <!-- Footer Start -->
+    <footer class="footer pt-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4">
+            <a class="navbar-brand footer-logo" href="index.html">NAME</a>
+            <p class="footer-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              quia reiciendis ipsum, harum maiores facilis
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="footer-links-title">Important Links</h3>
+            <ul class="list-unstyled">
+              <li class="footer-link">
+                <a href="index.html#yourlink">Home</a>
+              </li>
+              <li class="footer-link">
+                <a href="index.html#yourlink">About</a>
+              </li>
+              <li class="footer-link">
+                <a href="index.html#yourlink">Services</a>
+              </li>
+              <li class="footer-link">
+                <a href="index.html#yourlink">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="social">
+              <a href="index.html#yourlink"
+                ><i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="index.html#yourlink"
+                ><i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="index.html#yourlink"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="index.html#yourlink"
+                ><i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-text text-center mt-5 py-3">
+            <p>Copy right @2022 Company</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./library/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./library/jquery-3.6.0.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
